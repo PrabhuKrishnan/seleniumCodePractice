@@ -40,9 +40,10 @@ public class ActionDemo {
 
 		Actions action = new Actions(driver);
 		
+		
 		//action.moveToElement(mouseOver).perform();
 		
-		
+		//enter the text camera in uppercase in the textbox
 		action.moveToElement(seachValue).click().keyDown(Keys.SHIFT).sendKeys("camera").perform();
 		Thread.sleep(3000);
 		
