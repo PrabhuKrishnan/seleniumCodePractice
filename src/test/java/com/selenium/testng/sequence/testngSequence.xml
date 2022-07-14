@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Retail-Banking">
+
+<!-- 
+	<test name="SomeTesting">
+		<classes>
+			<class name="com.selenium.testng.sequence.SmokeTesting">
+			</class>
+		</classes>
+	</test>
+	
+	 -->
+
+	<test name="FunctionalTesting">
+		<classes>
+			<class name="com.selenium.testng.sequence.FunctionalTestingScenarios" />
+		     <class name="com.selenium.testng.sequence.IntegrtionTesting" />  
+		</classes>
+	</test>
+
+
+
+</suite>  

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumTest]">
+  <test thread-count="5" name="AutomationTest(failed)">
+    <classes>
+      <class name="com.selenium.seleniumAutomationExample.CheckBoxDemo">
+        <methods>
+          <include name="test"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.selenium.seleniumAutomationExample.CheckBoxDemo -->
+    </classes>
+  </test> <!-- AutomationTest(failed) -->
+</suite> <!-- Failed suite [SeleniumTest] -->
