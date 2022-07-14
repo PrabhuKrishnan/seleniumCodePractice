@@ -22,6 +22,7 @@ public class ActionDemo {
 	public void beforeTEst()
 	{
 
+		System.out.println("browser setup");
 		System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
