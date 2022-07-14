@@ -36,7 +36,7 @@ public class ActionClassOperation {
 	public void actionClassTest()
 	{
 		
-		System.out.println("Selenium Action Class Example:");
+		System.out.println("Selenium Action Class Examples:");
 		
 
 		WebElement mouseOver =  driver.findElement(By.xpath("//a[@id='nav-link-accountList']"));
